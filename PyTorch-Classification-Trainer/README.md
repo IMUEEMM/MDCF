@@ -110,11 +110,3 @@ python demo.py
 tensorboard --logdir=path/to/log/
 ```
 
-## 7.其他
-
-| 作者        | AI吃大瓜               |
-|:------------|:--------------------|
-| 联系方式    | 390737991@qq.com | 
-
-
-![](copyright.png)
