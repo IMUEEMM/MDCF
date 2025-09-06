@@ -20,4 +20,4 @@
 
 Special thanks to the following open-source projects that inspired this work:
 
-- **DCFace**：Developed by Minchul Kim，Computer Vision Lab Ph.D Student Michigan State University. Repository: https://github.com/mk-minchul/dcface. Our work is built upon their valuable baseline implementation, their pioneering efforts have laid a solid foundation for this project.
+- **DCFace**：Developed by Minchul Kim，Computer Vision Lab Ph.D Student Michigan State University. Repository: https://github.com/mk-minchul/dcface. Our work is built upon their valuable baseline implementation, and their pioneering efforts have laid a solid foundation for this project.
