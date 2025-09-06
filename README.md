@@ -2,7 +2,7 @@
 
 
 ### Face Synthesis Model
-We have detailed the steps of the face synthesis model in `README.md`.
+We have detailed the steps of the face synthesis model in [README.md](MDCF-master/README.md).
 
 
 ### Installation
