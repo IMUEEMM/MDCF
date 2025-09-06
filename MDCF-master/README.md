@@ -1,4 +1,4 @@
-# MDCF: Multi-Dimensional Conditional Fusion for High-Fidelity SyntheticFaces in Recognition Tasks
+# Multi-Dimensional Conditional Fusion for High-Fidelity SyntheticFaces
 
 ### Pipepline
 
