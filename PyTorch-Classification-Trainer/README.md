@@ -7,7 +7,6 @@
 
 - Github: Pytorch-Base-Trainer: [Pytorch分布式训练框架](https://github.com/PanJinquan/Pytorch-Base-Trainer)
 - pip安装包： [basetrainer](https://pypi.org/project/basetrainer/)
-- Pytorch基础训练库Pytorch-Base-Trainer(支持模型剪枝 分布式训练)[使用教程](https://panjinquan.blog.csdn.net/article/details/122662902)
 
 
 ## 2.安装
