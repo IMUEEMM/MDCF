@@ -1,7 +1,7 @@
 
 # Data Preparation
 
-## 1. Using InsightFace Dataset
+## 1. InsightFace Dataset
 
 
 InsightFace provides a variety of labeled face dataset preprocessed to 112x112 size. 
@@ -26,28 +26,10 @@ example: faces_webface_112x112
 whilst allowing indexed access. 
 `rec` file is good when one does not one to create millions of individual image files in storage. 
 
-We provide a training code that utilizes this `rec` file directly without converting to `jpg` format. 
-But if one ones to convert to `jpg` images and train, refer to the next section. 
-
-#### Dataset preparation steps
-
-1. Download the dataset from [insightface link](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_)
-2. Unzip it to a desired location, `DATASET_ROOT`  _ex)_ `/data/`. 
-3. The result folder we will call `DATASET_NAME`, ex) `faces_webface_112x112`.
-4. For preprocessing run
-   1. `python convert.py --rec_path <DATASET_ROOT>/<DATASET_NAME> --make_validation_memfiles`
-5. During training, 
-   1. turn on the option `--use_mxrecord` 
-   2. set `--data_root` equal to `DATASET_ROOT`
-   3. set `--train_data_path` to the `DATASET_NAME`.
-   4. set `--val_data_path` to the `DATASET_NAME`.
-
-* Note you cannot turn on `--train_data_subset` option. For this you must expand the dataset to images 
-(refer to below section).
 
 ## 2. Using Image Folder Dataset
 
-Another option is to extract out all images from the InsightFace train.rec file. 
+To extract out all images from the InsightFace train.rec file. 
 It uses the directory as label structure, and you can swap it with your own dataset. 
 
 #### Dataset preparation steps for InsightFace dataset
